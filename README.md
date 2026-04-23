@@ -28,9 +28,9 @@ To run this project locally, follow these steps:
 ## Assessment Requirements Checklist
 
 - [x] Based on the Proof-of-Concept attached (incl. Context & Hooks)
-- [ ] Allows a user to add, edit, check and delete items from the list *(In Progress)*
+- [x] Allows a user to add, edit, check and delete items from the list
 - [x] All items are stored in GlobalState (no persistence after refresh needed)
-- [ ] Mobile friendly UI with a custom design *(In Progress)*
+- [x] Mobile friendly UI with a custom design
 - [x] App contains multiple pages
 - [x] One of the pages is the TODO list, the other is not important (Lorem Ipsum)
 
