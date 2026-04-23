@@ -1,16 +1,46 @@
-# React + Vite
+# ToDo App Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based TODO list application built as an assessment. It demonstrates fundamental React concepts including global state management, client-side routing, and responsive UI design.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Global State Management**: Utilizes a custom `GlobalState` solution built entirely with React Context and Hooks (based on the provided Proof-of-Concept).
+* **TODO List Functionality**: Users can add, edit, check (mark as completed), and delete items.
+* **Multi-Page Routing**: Implemented using `react-router-dom`, featuring a primary TODO list page and a secondary informational "About" page.
+* **Mobile-Friendly**: The user interface is responsive and designed to be usable on mobile devices.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+1. Make sure you have Node.js installed.
+2. Open your terminal and navigate to the project directory.
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the Vite development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and navigate to the local URL provided in the terminal (usually `http://localhost:5173/`).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Assessment Requirements Checklist
+
+- [x] Based on the Proof-of-Concept attached (incl. Context & Hooks)
+- [ ] Allows a user to add, edit, check and delete items from the list *(In Progress)*
+- [x] All items are stored in GlobalState (no persistence after refresh needed)
+- [ ] Mobile friendly UI with a custom design *(In Progress)*
+- [x] App contains multiple pages
+- [x] One of the pages is the TODO list, the other is not important (Lorem Ipsum)
+
+## Assessment Tracking
+
+* **Time Taken**: 
+- Understanding assessment context, requirements, goals and provided implementation of global state management. [Time taken: 30 minutes]
+- 
+- 
+
+* **AI Usage**:
+- 
+- 
