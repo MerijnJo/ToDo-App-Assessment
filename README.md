@@ -36,11 +36,12 @@ To run this project locally, follow these steps:
 
 ## Assessment Tracking
 
-* **Time Taken**: 
+ **Time Taken per feature**: 
 - Understanding assessment context, requirements, goals and provided implementation of global state management. [Time taken: 30 minutes]
-- 
-- 
+- Setting up Github environment downloading necessary packages. [Time taken: 10 minutes]
+- Setting up routing within application between pages. [Time taken: 10 minutes]
+- Implementing add to do item functionality
 
-* **AI Usage**:
+**AI Usage**:
 - 
 - 
