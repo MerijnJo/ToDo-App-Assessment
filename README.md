@@ -40,7 +40,15 @@ To run this project locally, follow these steps:
 - Understanding assessment context, requirements, goals and provided implementation of global state management. [Time taken: 30 minutes]
 - Setting up Github environment downloading necessary packages. [Time taken: 10 minutes]
 - Setting up routing within application between pages. [Time taken: 10 minutes]
-- Implementing add to do item functionality
+- Implementing add to do item functionality [Time taken: 20 minutes]
+- Implementing check toggle too to do item [Time taken: 5 minutes]
+- Implementing edit function to excisting item [Time taken: 15 minutes]
+- Implementing task counter [Time taken: 5 minutes]
+- Implemeting detele function 
+- Creating low fidelity wireframe that works on web and mobile 
+- Implementing Material UI desing
+- 
+
 
 **AI Usage**:
 - 
