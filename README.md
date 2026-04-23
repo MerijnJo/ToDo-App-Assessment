@@ -50,7 +50,7 @@ To run this project locally, follow these steps:
 - Cleaning Up application (removing non needed components) [Time taken: 10 minutes]
 - Finishing up application, Checking if applications aligns with requested requirements [Time taken: 10 minutes]
 - General maintenance (fixing bugs, optimizing UI, finetuning application [Time taken: 90 minutes]
-Total Time taken: 285 minutes (-around 5 hours)
+- Total Time taken: 285 minutes (-around 5 hours)
 
 
 **AI Usage**:
