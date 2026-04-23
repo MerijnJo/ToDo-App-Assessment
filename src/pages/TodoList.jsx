@@ -67,6 +67,11 @@ export default function TodoList() {
     setEditingId(null); // Exit editing mode
   };
 
+  const handleDeleteTodo = (id) => {
+    const updatedTodos = todos.filter((todo) => todo.id !== id);
+    GlobalState.set({ todos: updatedTodos });
+  };
+
   return (
     <div style={{ padding: "2rem" }}>
       <h2>Total Tasks {todos.length}</h2>
@@ -135,7 +140,10 @@ export default function TodoList() {
                       <p style={{ margin: "0.5rem 0 0 0", color: "#555", fontSize: "0.9rem", wordBreak: "break-word" }}>{todo.description}</p>
                     )}
                   </div>
-                  <button onClick={() => handleEditClick(todo)} style={{ cursor: "pointer", padding: "0.25rem 0.5rem" }}>Edit</button>
+                  <div style={{ display: "flex", gap: "0.5rem" }}>
+                    <button onClick={() => handleEditClick(todo)} style={{ cursor: "pointer", padding: "0.25rem 0.5rem" }}>Edit</button>
+                    <button onClick={() => handleDeleteTodo(todo.id)} style={{ cursor: "pointer", padding: "0.25rem 0.5rem", color: "red" }}>Delete</button>
+                  </div>
                 </>
               )}
             </div>
